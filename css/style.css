@@ -1,0 +1,15 @@
+html, body { width: 100%; height: 100%; margin: 0; padding: 0;}
+
+#lines path {
+  position: absolute;
+  opacity: 0;
+}
+
+#my-lab * {
+  fill-opacity: 0;
+  transition: fill-opacity 1s;
+}
+
+#my-lab.finished * {
+  fill-opacity: 1;
+}
